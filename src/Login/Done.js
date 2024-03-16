@@ -33,7 +33,7 @@ function Certification() {
         <br />
         <br />
         <br />
-        <Link to="/Done" className="custom-button-link">
+        <Link to="/HomeMainPage" className="custom-button-link">
           <div className="custom-button">시작하기</div>
         </Link>
 

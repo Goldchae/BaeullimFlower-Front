@@ -1,30 +1,44 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-function SignupForm() {
+const SignUpForm = () => {
+  // 상태 관리를 위한 useState 훅 사용
   const [name, setName] = useState("");
-  const [stuNum, setStuNum] = useState("");
+  const [studentNumber, setStudentNumber] = useState("");
   const [college, setCollege] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSignup = () => {
-    const endpoint = "http://example.com/auth/signup";
+  // 회원가입 처리 함수
+  const handleSignUp = async (event) => {
+    event.preventDefault(); // 폼 제출 시 페이지 새로고침 방지
 
-    axios
-      .post(endpoint, { name, stuNum, college, password })
-      .then((response) => {
-        // 처리 로직
-        console.log("Signup success:", response.data);
-      })
-      .catch((error) => {
-        // 오류 처리 로직
-        console.error("Signup error:", error);
-      });
+    // 입력 값으로 회원가입 데이터 객체 생성
+    const userData = {
+      name,
+      stuNum: studentNumber,
+      college,
+      password,
+    };
+
+    try {
+      // axios를 사용해 POST 요청
+      const response = await axios.post(
+        "http://3.37.207.217:8080/auth/signup",
+        userData
+      );
+
+      // 성공 시 응답 로그 출력 및 추가 처리
+      console.log(response.data);
+      // 여기에 로그인 후 처리를 작성하면 됩니다.
+    } catch (error) {
+      // 에러 처리
+      console.error("회원가입 실패:", error);
+      // 에러 시 추가 처리를 작성하면 됩니다.
+    }
   };
 
   return (
-    <div>
-      {/* 입력 필드와 버튼을 렌더링 */}
+    <form onSubmit={handleSignUp}>
       <input
         type="text"
         value={name}
@@ -33,8 +47,8 @@ function SignupForm() {
       />
       <input
         type="text"
-        value={stuNum}
-        onChange={(e) => setStuNum(e.target.value)}
+        value={studentNumber}
+        onChange={(e) => setStudentNumber(e.target.value)}
         placeholder="학번"
       />
       <input
@@ -49,9 +63,9 @@ function SignupForm() {
         onChange={(e) => setPassword(e.target.value)}
         placeholder="비밀번호"
       />
-      <button onClick={handleSignup}>회원가입</button>
-    </div>
+      <button type="submit">회원가입</button>
+    </form>
   );
-}
+};
 
-export default SignupForm;
+export default SignUpForm;

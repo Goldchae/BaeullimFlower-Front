@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./TopNavBar.css";
 import PublicNews from "./PublicNews";
+import Petition from "./petition";
 
 const TopNavBar = () => {
   const [activeTab, setActiveTab] = useState("public-news");
@@ -11,7 +12,7 @@ const TopNavBar = () => {
       case "public-news":
         return <PublicNews />;
       case "create-petition":
-        return <div>청원을 생성하는 페이지입니다.</div>;
+        return <Petition />;
       default:
         return <div>선택된 탭이 없습니다.</div>;
     }

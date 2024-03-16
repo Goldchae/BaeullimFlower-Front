@@ -1,0 +1,73 @@
+.p2-main-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 60vh; /* Sets the height of the container to 100% of the viewport height */
+}
+.p2-main-login-holder {
+  max-width: 500px;
+  min-width: 400px;
+  //background-color: white;
+  padding: 20px;
+}
+
+.feedback-form {
+  //max-width: 600px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background: #fff;
+  border-radius: 8px;
+  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h1 {
+  text-align: center;
+  color: #006540;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #006540;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #006540;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #006540;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+.p2-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

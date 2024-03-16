@@ -1,0 +1,84 @@
+.p3-main-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 10vh; /* Sets the height of the container to 100% of the viewport height */
+}
+.p3-main-login-holder {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers flex items on the main axis (horizontal) */
+  //align-items: center; /* Centers flex items on the cross axis (vertical) */
+  max-width: 800px;
+  min-width: 600px;
+  margin: auto; /* Centers the holder in the available horizontal space */
+  padding: 20px;
+  //height: 1vh; /* Sets the height of the holder to the full viewport height */
+}
+
+.form-container {
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* If the form-container shouldn't stretch to match the parent's height, remove the height property */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-box,
+.opinion-box {
+  background-color: #f1f1f1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-size: 16px;
+  color: #666;
+}
+
+.value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.opinion-content {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.submit-button {
+  background-color: #006540;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.p3-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

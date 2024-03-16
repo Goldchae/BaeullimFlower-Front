@@ -1,0 +1,107 @@
+.loginup-container {
+  display: flex;
+  justify-content: center;
+  align-itmes: center;
+  height: 100vh;
+}
+
+.loginup-holder {
+  max-width: 500px;
+  min-width: 400px;
+  background-color: white;
+  height: 80%;
+  padding: 20px;
+}
+
+.loginup-form {
+  max-width: 500px;
+  min-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.loginup-form h1 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.loginup-form h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.input-group input.valid {
+  border: 1px solid #28a745;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #80bdff;
+}
+
+.actionup-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+.checkbox-container input[type="checkbox"]:checked + .checkmark {
+  background-color: #007bff;
+}
+
+.loginup-button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  position: center;
+  cursor: pointer;
+  bottom: 20px; /* Adjust the distance from the bottom */
+  transition: all 0.3 ease;
+}
+
+.loginup-button-success {
+  background-color: #4caf50; /* Green color */
+}
+
+h6 {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+h6:hover {
+  color: #0056b3;
+}

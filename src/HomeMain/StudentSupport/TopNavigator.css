@@ -1,0 +1,24 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00462a; /* Dark green background */
+  color: white;
+}
+
+.top-nav-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 15px;
+  fill: white; /* Assuming your SVG icons can be filled */
+  cursor: pointer;
+}

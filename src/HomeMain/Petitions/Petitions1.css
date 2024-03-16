@@ -1,0 +1,74 @@
+.p1-main-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 50vh; /* Sets the height of the container to 100% of the viewport height */
+}
+.p1-main-login-holder {
+  max-width: 500px;
+  min-width: 400px;
+  //background-color: white;
+  padding: 20px;
+}
+.personal-info-form {
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+}
+
+.personal-info-form h1,
+.personal-info-form h2 {
+  color: green;
+}
+
+.input-group label {
+  font-weight: bold;
+}
+
+.input-group span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.email-consent h2 {
+  font-size: 1.2em;
+}
+
+.warning {
+  color: red;
+  font-size: 0.8em;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-group label {
+  margin-left: 5px;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+.p1-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

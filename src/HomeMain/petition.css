@@ -1,0 +1,57 @@
+.p-main-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 90vh; /* Sets the height of the container to 100% of the viewport height */
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.p-main-holder {
+  align-self: start;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: white;
+  height: 80%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.petition-image {
+  align-self: center;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+.petition-image img {
+  width: 100%;
+  height: auto;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  margin-left: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* Disabled state styling for the button */
+.submit-button:disabled {
+  background-color: #eee;
+  cursor: default;
+}

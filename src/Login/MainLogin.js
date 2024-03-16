@@ -24,7 +24,7 @@ const MainLogin = () => {
           <br />
 
           <div className="buttons">
-            <Link to="/SignUp" className="button primary">
+            <Link to="/LoginUp" className="button primary">
               가입되어있어요
             </Link>
             <Link to="/SignUp" className="button secondary">

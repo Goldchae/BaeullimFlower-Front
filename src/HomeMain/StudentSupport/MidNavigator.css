@@ -1,0 +1,25 @@
+.mid-nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; /* Assuming you want a transparent background */
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 20px; /* Space between the back icon and the title */
+}
+
+.mid-nav-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00462a; /* The color used in the previous top navigation */
+}
+
+.back-icon {
+  width: 16px; /* Adjusted from 24px to a smaller size */
+  height: auto; /* This will maintain the aspect ratio of the image */
+}
