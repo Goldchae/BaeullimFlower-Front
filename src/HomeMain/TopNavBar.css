@@ -1,0 +1,48 @@
+.top-nav-bar {
+  background-color: #1f6032;
+  padding: px 0;
+}
+
+.title-container {
+  background-color: #1f6032;
+  padding: 20px 20px 20px 20px;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  padding: 10px 20px;
+}
+
+.nav-button {
+  background-color: transparent; /* 버튼 배경색 투명 */
+  color: #1f6032; /* 버튼 글자색 */
+  border: none; /* 테두리 제거 */
+  padding: 10px 20px; /* 버튼 내부 여백 */
+  margin-right: 10px;
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+  transition: background-color 0.3s; /* 배경색 변경에 애니메이션 효과 */
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.nav-button:active,
+.nav-button:focus {
+  outline: none;
+  background-color: #e6e6e6;
+}
+
+.nav-button:hover {
+  background-color: #f2f2f2;
+}
+
+main {
+  padding: 20px;
+}

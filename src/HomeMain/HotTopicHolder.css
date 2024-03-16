@@ -1,0 +1,37 @@
+.hot-topic-holder {
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+.hot-topic-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.inquiry-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.inquiry-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.inquiry-scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 220px;
+}

@@ -1,0 +1,54 @@
+.topic-container {
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 160px;
+  margin: 10px 0px 10px 0px;
+  background-color: white;
+}
+
+.topic-category {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.topic-title {
+  margin-bottom: 5px;
+}
+
+.topic-dates {
+  margin-bottom: 5px;
+  font-size: smaller;
+  color: #666666;
+}
+
+.topic-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: smaller;
+}
+
+.topic-days-remaining {
+}
+
+.topic-agreement-percent {
+}
+
+.progress-bar-background {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.progress-bar-fill {
+  height: 5px;
+  background-color: #006400;
+  border-radius: 5px;
+}
+
+/* Add a class for when the percent is 50 or below if needed */
+.progress-bar-fill.low-percent {
+  background-color: #008000;
+}

@@ -1,0 +1,89 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-login-holder {
+  max-width: 500px;
+  min-width: 400px;
+  background-color: white;
+  height: 80%;
+  padding: 20px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.signup-form h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  margin: 0px 7px 7px 0px;
+  font-size: 30px;
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #006540;
+}
+
+.check-button,
+.next-button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.check-button.valid,
+.next-button.valid {
+  border-color: #006540;
+  background-color: #006540;
+  color: white;
+}
+
+.next-button {
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between; /* Spaces children evenly */
+  margin-bottom: 20px; /* Adds space below the group */
+}
+
+.input-group input,
+.input-group button {
+  flex-grow: 1;
+  margin: 0 5px; /* Adds space between input and button */
+}
+
+.input-group input {
+  flex-grow: 2; /* Allows input to take more space than the button */
+}
+
+.check-button {
+  white-space: nowrap; /* Prevents text inside the button from wrapping */
+  padding: 10px; /* Adjust padding as needed */
+  /* Add other styles for the button here */
+}

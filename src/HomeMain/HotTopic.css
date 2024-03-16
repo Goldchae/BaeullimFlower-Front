@@ -1,0 +1,67 @@
+.hot-topic {
+  font-family: "Arial", sans-serif;
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-width: 280px;
+  //height:100px;
+}
+
+.hot-topic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hot-topic-category {
+  color: #2e7d32;
+  font-size: 0.9em;
+}
+
+.hot-topic-days-remaining {
+  background-color: #2e7d32;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+
+.hot-topic-title {
+  font-size: 1.2em;
+  color: #424242;
+  margin-bottom: 5px;
+}
+
+.hot-topic-date {
+  font-size: 0.8em;
+  color: #757575;
+  margin-bottom: 15px;
+}
+
+.hot-progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.hot-progress {
+  background-color: #2e7d32;
+  height: 10px;
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+.hot-topic-discount-percent {
+  color: #2e7d32;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: right;
+}
