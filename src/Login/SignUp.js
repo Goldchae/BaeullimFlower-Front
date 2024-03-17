@@ -12,8 +12,6 @@ function Signup() {
   };
 
   const validateEmail = () => {
-    // Implement email validation logic here
-    // For now, we'll assume any input is valid
     setIsEmailValid(true);
   };
 
@@ -27,7 +25,7 @@ function Signup() {
 
   return (
     <div className="main-container">
-      <div className="main-login-holder">
+      <div className="su-main-login-holder">
         <br />
         <div className="signup-form">
           <h1>간편한 회원가입을</h1>

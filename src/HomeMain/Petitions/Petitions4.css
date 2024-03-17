@@ -1,8 +1,8 @@
 .p4-main-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 70vh; /* Sets the height of the container to 100% of the viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 .p4-main-login-holder {
   max-width: 500px;
@@ -13,19 +13,19 @@
 .button-list {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* 버튼들이 부모 컨테이너의 너비에 맞춰지도록 설정 */
+  align-items: stretch;
 }
 
 .button-item {
   height: 50px;
   display: flex;
-  justify-content: space-between; /* 왼쪽 컨텐츠와 오른쪽 체크 버튼 사이의 공간을 최대로 설정 */
+  justify-content: space-between;
   align-items: center;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
   margin: 10px 0;
-  background-color: #fff; /* 버튼의 배경색 */
+  background-color: #fff;
 }
 
 .left {
@@ -34,8 +34,7 @@
 }
 
 .icon {
-  /* 아이콘 스타일링 */
-  margin-right: 25px; /* 아이콘과 텍스트 사이의 간격 */
+  margin-right: 25px;
 }
 
 .content {
@@ -43,35 +42,33 @@
 }
 
 .right {
-  margin-left: auto; /* 오른쪽 체크 버튼을 오른쪽 끝으로 밀어냄 */
+  margin-left: auto;
 }
 
 .right .checkmark-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px; /* 체크마크 컨테이너의 크기 */
+  width: 24px;
   height: 24px;
-  border-radius: 50%; /* 동그란 모양 */
-  border: 2px solid #ccc; /* 체크마크 컨테이너의 테두리 */
+  border-radius: 50%;
+  border: 2px solid #ccc;
   background-color: transparent;
 }
 
 .right .checkmark-container.checked {
-  border-color: green; /* 선택됐을 때 테두리 색상 */
-  background-color: green; /* 선택됐을 때 배경색 */
+  border-color: green;
+  background-color: green;
 }
 
 .right .checkmark {
-  display: none; /* 기본적으로는 체크마크를 숨김 */
+  display: none;
 }
 
 .right .checkmark-container.checked .checkmark {
-  display: block; /* 선택됐을 때만 체크마크를 보여줌 */
-  color: white; /* 체크마크의 색상 */
-  /* 추가적인 체크마크 스타일링 */
+  display: block;
+  color: white;
 }
 
 .submit-button {
-  /* 신청하기 버튼 스타일링 */
 }

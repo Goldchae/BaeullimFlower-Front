@@ -58,7 +58,7 @@ function PHeader({ title }) {
   return (
     <HeaderContainer>
       <TopRow>
-        <TopTitle>이화 신문고</TopTitle>
+        <TopTitle>배울림꽃</TopTitle>
       </TopRow>
       <BottomRow>
         <Button onClick={handleBack}>⬅️</Button>

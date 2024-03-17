@@ -21,11 +21,11 @@ function Petitions3() {
             <div className="info-box">
               <div className="field">
                 <span className="label">이름</span>
-                <span className="value">홍길동</span>
+                <span className="value">정은체</span>
               </div>
               <div className="field">
                 <span className="label">학번</span>
-                <span className="value">2012345</span>
+                <span className="value">2271056</span>
               </div>
               <div className="field">
                 <span className="label">이메일</span>
@@ -37,13 +37,13 @@ function Petitions3() {
             <div className="opinion-box">
               <div className="field">
                 <span className="value">
-                  학점 평가로 인한 학생들의 유익한 상 보장
+                  학점포기로 인한 학생들의 윤택한 삶 보장
                 </span>
               </div>
               <div className="opinion-content">
-                학점 평가에 해쳐시던 교수님을 자르는 근리를 보장해주시며
-                학생들이 불평등을 내면서 나름 노예가 아닌 삶을 살고 있다 생각한
-                겁니다. 어렵으시면 둥글게 넘고 가세요.
+                학점포기 보장해주시면 학생들이 등록금을 내면서 나름 노예가 아닌
+                삶을 살고 있다 생각할 것 같습니다. 어려우시면 등록금 네고
+                가시죠.
               </div>
             </div>
             <div className="ai-label">

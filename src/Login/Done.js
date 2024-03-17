@@ -5,7 +5,7 @@ import "./Done.css";
 function Certification() {
   return (
     <div className="main-container">
-      <div className="main-login-holder">
+      <div className="done-main-login-holder">
         <br />
         <br />
         <br />

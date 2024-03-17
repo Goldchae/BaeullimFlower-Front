@@ -8,34 +8,34 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; /* This will center the children vertically */
-  justify-content: center; /* This will center the children horizontally */
+  align-items: center;
+  justify-content: center;
 }
 
 .status-bar {
   display: flex;
-  justify-content: center; /* Centers the status bar horizontally */
-  width: 100%; /* Ensures the status bar takes full width of its container */
+  justify-content: center;
+  width: 100%;
   padding: 20px;
 }
 
 .status-group {
-  display: block; /* This will allow you to use margin: auto; to horizontally center the image if it's not within a flex container */
-  width: 400px; /* Set a fixed width for your image */
-  height: auto; /* This will maintain the aspect ratio of the image */
-  margin: auto; /* This will center the image if it is in a block context */
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: auto;
 }
 
 .ProceedDetail-info {
-  width: 400px; /* Match the status bar width */
+  width: 400px;
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: left; /* Center content */
+  align-items: left;
   padding: 20px;
-  margin: 20px 0; /* Add some vertical spacing */
+  margin: 20px 0;
 }
 
 .info-title {
@@ -52,11 +52,11 @@
 }
 
 .right-aligned {
-  position: absolute; /* Position absolutely within .info-details */
+  position: absolute;
   font-size: 14px;
   font-weight: bold;
-  right: 20px; /* Align to the right, with a bit of margin */
-  top: 10; /* Align with the top of the container */
+  right: 20px;
+  top: 10;
 }
 
 .info-date {
@@ -65,21 +65,21 @@
 }
 
 .info-participants1 {
-  display: block; /* or inline-block depending on layout */
+  display: block;
 }
 
 .info-progress-bar {
-  width: 100%; /* Take the full width of the info box */
+  width: 100%;
   background-color: #eee;
-  height: 20px; /* Adjust the height of the progress bar if needed */
+  height: 20px;
   border-radius: 10px;
-  overflow: hidden; /* Ensures the progress doesn't spill out of the corners */
+  overflow: hidden;
   margin: 10px 0;
 }
 
 .info-progress {
   background-color: #4caf50;
-  width: 40%; /* Adjust based on progress */
+  width: 40%;
   height: 20px;
 }
 
@@ -93,7 +93,7 @@
 .info-box {
   background: #fff;
   padding: 0px;
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 10px;
 }
 
 .info-row {
@@ -103,11 +103,11 @@
 
 .info-label2 {
   font-weight: bold;
-  min-width: 80px; /* Adjust width as needed */
+  min-width: 80px;
 }
 
 .info-content {
-  flex: 1; /* Takes the remaining space */
+  flex: 1;
 }
 
 .ProceedDetail-agreement {
@@ -130,7 +130,7 @@
 }
 
 .agree-button {
-  background-color: #4caf50; /* Green color */
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -140,8 +140,8 @@
 }
 
 .agree-button.agreed {
-  background: #eaeaea; /* Grey background as shown in the image */
-  color: #666; /* Darker font color */
-  pointer-events: none; /* Disables the button */
+  background: #eaeaea;
+  color: #666;
+  pointer-events: none;
   border: 1px solid #ccc;
 }

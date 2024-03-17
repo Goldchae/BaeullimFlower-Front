@@ -1,12 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Categories.css"; // Categories 컴포넌트에 대한 스타일시트
+import "./Categories.css";
 
 const Categories = () => {
-  const navigate = useNavigate(); // 페이지 이동을 위한 history 객체 사용
-
+  const navigate = useNavigate();
   const handleCategoryClick = (path) => {
-    navigate(path); // 지정된 경로로 이동
+    navigate(path);
   };
 
   return (

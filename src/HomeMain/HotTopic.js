@@ -34,12 +34,12 @@ const HotTopic = ({
       case "완료":
         path = "/CompleteDetail";
         break;
-      // add more cases as necessary
+
       default:
         path = "/ProceedDetail";
         break;
     }
-    navigate(path); // Navigate to the determined path
+    navigate(path);
   };
 
   const progressPercent =

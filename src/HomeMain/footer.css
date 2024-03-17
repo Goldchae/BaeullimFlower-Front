@@ -1,10 +1,9 @@
-/* footer.css */
 .petition-footer {
   //position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #004712; /* Assuming you want to match the footer's background with the image's green */
+  background-color: #004712;
   color: white;
   text-align: left;
   padding: 10px 0;
@@ -16,12 +15,12 @@
 
 .contact-info,
 .rights {
-  display: block; /* This will put the contact info and rights on separate lines */
+  display: block;
   margin: 5px 0;
 }
 
 address {
-  font-style: normal; /* Usually, address is displayed in italics, this will override it */
+  font-style: normal;
   margin: 5px 0;
 }
 
@@ -32,14 +31,13 @@ body {
 }
 
 #root {
-  /* assuming your root div has the id 'root' */
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
 .petition-footer {
-  margin-top: auto; /* Pushes the footer to the bottom */
+  margin-top: auto;
   background-color: #004712;
   color: white;
   text-align: left;

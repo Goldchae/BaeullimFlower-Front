@@ -10,10 +10,8 @@ const Petition = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (isAgreed) {
-      // Handle the submit action here
       console.log("Form submitted");
     } else {
-      // You can alert the user to agree to the conditions before submitting
       alert("Please agree to the conditions before submitting.");
     }
   };
@@ -30,7 +28,7 @@ const Petition = () => {
       <div className="p-main-container">
         <div className="p-main-holder">
           <div className="petition-image">
-            <img alt="안내글" src="/image/main/petition.png" />
+            <img alt="안내글" src="/image/main/petitions.png" />
           </div>
         </div>
       </div>

@@ -4,17 +4,17 @@ import "./MainLogin.css";
 
 const MainLogin = () => {
   return (
-    <div className="main-container">
-      <div className="main-login-holder">
-        <div className="main-login">
+    <div className="fir-main-container">
+      <div className="fir-main-login-holder">
+        <div className="fir-main-login">
           <div className="megaphone-image">
-            <img alt="메가폰" src="/image/login/megaphone.png" />
+            <img alt="로고" src="/image/main/sublogo.png" />
           </div>
 
           <div className="text-area">
             <h1>이화인의</h1>
-            <h1>작은소리를</h1>
-            <h1>함께 크게 외쳐주세요!</h1>
+            <h1>작은소리가 모여</h1>
+            <h1>하나의 큰 울림으로.</h1>
             <br />
             <p>한번보다 두 명, 두 명보다 세 명으로</p>
             <p>학교에 말하고 싶은 것을 함께하기</p>

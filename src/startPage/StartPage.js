@@ -1,12 +1,12 @@
 import React from "react";
-import "./StartPage.css"; // StatePage 컴포넌트 스타일을 불러옵니다.
+import "./StartPage.css";
 
 const StartPage = () => {
   return (
-    <div className="state-page">
-      <div className="placeholder-box"></div>
-      <p className="call-to-action">이화인의 목소리 들려주세요</p>
-      <p className="hashtag">이화 신문고</p>
+    <div className="state-page" style={{ backgroundColor: "#006540" }}>
+      <div className="check-image">
+        <img alt="로고" src="/image/main/logo.png" class="fade-in-image" />
+      </div>
     </div>
   );
 };

@@ -1,60 +1,58 @@
 import React, { useState } from "react";
 import Topic from "./Topic";
 import "./TopicHolder.css";
-
-const TopicData = [
+const TopicDatas = [
   {
     id: 1,
-    category: "상생지원",
-    title: "진행중1 건의",
+    category: "학생활동",
+    title: "시험기간에 놀 권리",
     startDate: "2024.03.15",
     endDate: "2024.03.31",
-    daysRemaining: 15,
+    daysRemaining: 80,
     agreementPercent: 40,
     status: "진행중",
   },
   {
     id: 2,
-    category: "상생지원",
-    title: "완료 건의",
+    category: "학생지원",
+    title: "해커톤 지원",
     startDate: "2024.03.15",
     endDate: "2024.03.31",
-    daysRemaining: 15,
+    daysRemaining: 5,
     agreementPercent: 40,
     status: "완료",
   },
   {
     id: 3,
-    category: "상생지원",
-    title: "진행중2 건의",
+    category: "기타",
+    title: "라면 섭취권",
     startDate: "2024.03.15",
     endDate: "2024.03.31",
-    daysRemaining: 15,
-    agreementPercent: 40,
+    daysRemaining: 30,
+    agreementPercent: 90,
     status: "진행중",
   },
   {
     id: 4,
-    category: "상생지원2",
-    title: "논의중 건의",
+    category: "생활지원",
+    title: "수면 보장권",
     startDate: "2024.03.15",
     endDate: "2024.03.31",
-    daysRemaining: 15,
-    agreementPercent: 40,
+    daysRemaining: 20,
+    agreementPercent: 20,
     status: "논의중",
   },
 ];
-
 const TopicHolder = () => {
-  const [filteredTopics, setFilteredTopics] = useState(TopicData);
-  const [activeStatus, setActiveStatus] = useState("all"); // 'all', '진행중', '논의중', '완료'
+  const [filteredTopics, setFilteredTopics] = useState(TopicDatas);
+  const [activeStatus, setActiveStatus] = useState("all");
 
   const filterTopics = (status) => {
     setActiveStatus(status);
     if (status === "all") {
-      setFilteredTopics(TopicData);
+      setFilteredTopics(TopicDatas);
     } else {
-      setFilteredTopics(TopicData.filter((topic) => topic.status === status));
+      setFilteredTopics(TopicDatas.filter((topic) => topic.status === status));
     }
   };
 
@@ -90,7 +88,6 @@ const TopicHolder = () => {
         <Topic key={topic.id} {...topic} />
       ))}
       <div className="pagination">
-        {/* Pagination component/logic will go here */}
         <span> {"< 1 2 3 >"} </span>
       </div>
     </div>

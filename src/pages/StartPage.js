@@ -32,7 +32,7 @@ const Start = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigate("/MainLogin");
-    }, 2000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, [navigate]);
 

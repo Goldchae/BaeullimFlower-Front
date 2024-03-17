@@ -1,8 +1,8 @@
 .p1-main-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 50vh; /* Sets the height of the container to 100% of the viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 .p1-main-login-holder {
   max-width: 500px;

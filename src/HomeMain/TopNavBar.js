@@ -1,4 +1,3 @@
-// TopNavBar.js
 import React, { useState } from "react";
 import "./TopNavBar.css";
 import PublicNews from "./PublicNews";
@@ -9,6 +8,9 @@ const TopNavBar = () => {
   const navigate = useNavigate();
   const nextClick = () => {
     navigate("/Mypage");
+  };
+  const titleClick = () => {
+    navigate("/");
   };
 
   const [activeTab, setActiveTab] = useState("public-news");
@@ -28,7 +30,9 @@ const TopNavBar = () => {
     <div>
       <header className="top-nav-bar">
         <div className="top-nav-title-container">
-          <h1 className="top-nav-titletop">이화신문고</h1>
+          <h1 className="top-nav-titletop" onClick={titleClick}>
+            배울림꽃
+          </h1>
           <div className="top-nav-icons-container">
             <img
               src="/image/icons/Bell.png"

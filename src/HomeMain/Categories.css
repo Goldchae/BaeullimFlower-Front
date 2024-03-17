@@ -2,36 +2,34 @@
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .categories-container::-webkit-scrollbar {
-  display: none; /* 웹킷(크롬, 사파리 등) 브라우저용 */
+  display: none;
 }
 
 .category {
   display: inline-block;
-  width: 100px; /* Adjust as needed */
+  width: 100px;
   margin: 10px;
   text-align: center;
   cursor: pointer;
 }
 
 .icon {
-  width: 50px; /* Adjust as needed */
-  height: 50px; /* Adjust as needed */
+  width: 50px;
+  height: 50px;
   margin-bottom: 5px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* You would need to add the specific background images for each icon here */
 .icon-label {
   margin: 0px 0px 0px 0px;
 }
 
 .label {
-  //font-size: 14px; /* Adjust as needed */
 }

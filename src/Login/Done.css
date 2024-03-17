@@ -1,58 +1,59 @@
 .main-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 100vh; /* Sets the height of the container to 100% of the viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.main-login-holder {
+.done-main-login-holder {
   max-width: 500px;
   min-width: 400px;
   background-color: white;
   height: 80%;
   padding: 20px;
+  margin-top: 260px;
 }
 .custom-button-link {
-  text-decoration: none; /* Removes underline from links */
-  display: block; /* Block display to fill the container */
-  width: 100%; /* Make link fill the container width */
+  text-decoration: none;
+  display: block;
+  width: 100%;
 }
 .custom-button {
-  background-color: #006540; /* Green background */
-  border: none; /* No border */
-  color: white; /* White text */
-  padding: 14px 0; /* Padding top and bottom */
-  text-align: center; /* Center text inside the button */
+  background-color: #006540;
+  border: none;
+  color: white;
+  padding: 14px 0;
+  text-align: center;
   //display: flex;
   line-height: 40px;
   justify-content: center;
-  border-radius: 28px; /* Rounded corners */
-  transition: background 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
-  //max-width: 700px; /* Maximum width of the button */
-  height: 40px; /* Height of the button */
-  line-height: 40px; /* Align text vertically */
+  border-radius: 28px;
+  transition: background 0.3s, box-shadow 0.3s;
+
+  height: 40px;
+  line-height: 40px;
   font-size: 18px;
 }
 
 .custom-button:hover {
-  background-color: #005133; /* Darker green background on hover */
-  box-shadow: 2px 2px 5px #999; /* Shadow effect on hover */
+  background-color: #005133;
+  box-shadow: 2px 2px 5px #999;
 }
 
 .check-image {
-  display: flex; /* Flexbox를 활성화합니다 */
+  display: flex;
   justify-content: center;
-  align-self: center; /* Align image to the right */
-  margin: 0px 0px 0px 0px; /* Keeps the image at the top */
-  width: 100%; /* Adjust the width as needed */
-  max-width: 200px; /* Adjust the maximum width as needed */
-  height: auto; /* Keeps the aspect ratio of the image */
+  align-self: center;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 .centercenter {
-  display: flex; /* Flexbox를 활성화합니다 */
+  display: flex;
   justify-content: center;
 }
 .done-text {
-  display: flex; /* Flexbox를 활성화합니다 */
+  display: flex;
   justify-content: center;
   align-self: center;
   margin: 0px 0px 0px 0px;

@@ -2,16 +2,16 @@
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  height: 90vh; /* Sets the height of the container to 100% of the viewport height */
+  height: 200%; /* Sets the height of the container to 100% of the viewport height */
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 .p-main-holder {
   align-self: start;
-  max-width: 400px;
-  min-width: 400px;
+  width: 350px;
+
   background-color: white;
-  height: 80%;
+  height: 790px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
@@ -20,11 +20,11 @@
   margin: 0px 0px 0px 0px;
   width: 100%;
   max-width: 1000px;
-  height: auto;
+  height: 100%;
 }
 .petition-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .submit-form {

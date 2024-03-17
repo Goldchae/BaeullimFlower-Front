@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
-  height: 10vh; /* Sets the height of the container to 100% of the viewport height */
+  height: 100%; /* Sets the height of the container to 100% of the viewport height */
 }
 .p3-main-login-holder {
   display: flex; /* Enables flexbox */
@@ -23,7 +23,6 @@
   min-width: 200px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  /* If the form-container shouldn't stretch to match the parent's height, remove the height property */
 }
 
 .title {
@@ -84,10 +83,10 @@
 }
 
 .ai-label {
-  //align-self: flex-end; /* Align image to the right */
-  margin-top: 0; /* Keeps the image at the top */
-  width: 100%; /* Adjust the width as needed */
-  max-width: 300px; /* Adjust the maximum width as needed */
+  //align-self: flex-end;
+  //margin-top: 0;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   align-items: center;
   display: flex;
@@ -96,4 +95,5 @@
 .ai-label img {
   width: 100%;
   height: auto;
+  margin: 0px 0px 0px 90px;
 }

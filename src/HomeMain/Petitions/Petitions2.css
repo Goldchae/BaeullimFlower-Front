@@ -1,13 +1,13 @@
 .p2-main-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  height: 60vh; /* Sets the height of the container to 100% of the viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 .p2-main-login-holder {
   max-width: 500px;
   min-width: 400px;
-  //background-color: white;
+
   padding: 20px;
 }
 

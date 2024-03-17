@@ -23,7 +23,7 @@ function Petitions2() {
       attachedFiles,
     };
 
-    // Here you would typically send `formData` to your server
+    //  `formData` 서버로 보내는
     console.log("Form submitted", formData);
 
     // Redirect to the next page if needed

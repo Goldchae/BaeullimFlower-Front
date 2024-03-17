@@ -4,12 +4,13 @@
   align-items: center;
   height: 100vh;
 }
-.main-login-holder {
+.su-main-login-holder {
   max-width: 500px;
   min-width: 400px;
   background-color: white;
   height: 80%;
   padding: 20px;
+  margin-top: 70px;
 }
 .signup-form {
   display: flex;

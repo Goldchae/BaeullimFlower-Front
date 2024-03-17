@@ -10,13 +10,12 @@ function ProceedDetail() {
   const [showExitPopup, setShowExitPopup] = useState(false);
 
   const handleAgreeAndNext = () => {
-    // Show the exit popup without changing the state of agreement
     setShowExitPopup(true);
   };
 
   const handleClosePopup = () => {
     setShowExitPopup(false);
-    // Change the button text and style after the popup closes
+
     setButtonText("이미 동의한 소리입니다");
   };
 
@@ -26,7 +25,6 @@ function ProceedDetail() {
 
       <div className="ProceedDetail-content">
         <div className="status-bar">
-          {/* Image here representing the status. Make sure the image has transparent padding if necessary. */}
           <img
             src="/image/TopicDetail/status_group.png"
             className="status-group"

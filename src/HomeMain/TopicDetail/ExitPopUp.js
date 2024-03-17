@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import "./ExitPopUp.css"; // 팝업의 스타일을 정의한 CSS 파일
+import "./ExitPopUp.css";
 
 function ExitPopUp({ onClose }) {
-  // This function will be called to close the popup after 3 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       onClose();

@@ -1,6 +1,6 @@
 import React from "react";
 import "./CompleteDetail.css";
-import PHeader from "../Petitions/Pheader"; // Assuming this is the top navigation component
+import PHeader from "../Petitions/Pheader";
 import Footer from "../footer";
 
 function CompleteDetail() {

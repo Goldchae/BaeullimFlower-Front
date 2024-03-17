@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ExitPopUp.css"; // 팝업의 스타일을 정의한 CSS 파일
+import "./ExitPopUp.css";
 import { useNavigate } from "react-router-dom";
 
 function Popup({ onConfirm, onCancel }) {

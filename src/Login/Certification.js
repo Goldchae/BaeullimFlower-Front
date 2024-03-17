@@ -5,7 +5,7 @@ import "./Certification.css";
 function Certification() {
   return (
     <div className="main-container">
-      <div className="main-login-holder">
+      <div className="cer-main-login-holder">
         <br />
         <h1>학생증</h1>
         <h1>인증이 필요해요.</h1>

@@ -14,7 +14,7 @@ const Petitions4 = () => {
       id: 1,
       title: "학생지원",
       description: "취업/현장실습지원,학술지원,행사지원,상담지원,고시지원,등",
-      icon: "/image/icons/1.png", // 아이콘 경로
+      icon: "/image/icons/1.png",
     },
     {
       id: 2,
@@ -28,26 +28,26 @@ const Petitions4 = () => {
       title: "생활지원",
       description:
         "식당, 기숙사, 휘트니스/체육센터, 편의시설, 대학건강센터, 등",
-      icon: "/image/icons/3.png", // 아이콘 경로
+      icon: "/image/icons/3.png",
     },
     {
       id: 4,
       title: "행정지원",
       description:
         "입학 및 학사운영, 학교 관련 제도, 학사 운영 전반에 관한 업무,등",
-      icon: "/image/icons/4.png", // 아이콘 경로
+      icon: "/image/icons/4.png",
     },
     {
       id: 5,
       title: "대학",
       description: "각 대학별 특수 청원",
-      icon: "/image/icons/5.png", // 아이콘 경로
+      icon: "/image/icons/5.png",
     },
     {
       id: 6,
       title: "기타",
       description: "그 외의 교내 관련 청원",
-      icon: "/image/icons/6.png", // 아이콘 경로
+      icon: "/image/icons/6.png",
     },
   ];
 
@@ -88,7 +88,6 @@ const Petitions4 = () => {
                       selected === button.id ? "checked" : ""
                     }`}
                   >
-                    {/* SVG나 Font Icon을 사용해 체크 표시를 넣을 수 있음 */}
                     <span className="checkmark">✓</span>
                   </div>
                 </div>

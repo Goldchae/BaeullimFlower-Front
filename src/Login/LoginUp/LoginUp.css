@@ -19,6 +19,7 @@
   background-color: white;
   padding: 20px;
   border-radius: 8px;
+  margin-top: 80px;
 }
 
 .loginup-form h1 {
@@ -88,12 +89,12 @@
   background-color: white;
   position: center;
   cursor: pointer;
-  bottom: 20px; /* Adjust the distance from the bottom */
+  bottom: 20px;
   transition: all 0.3 ease;
 }
 
 .loginup-button-success {
-  background-color: #4caf50; /* Green color */
+  background-color: #4caf50;
 }
 
 h6 {
