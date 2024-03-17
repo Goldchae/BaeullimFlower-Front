@@ -1,6 +1,6 @@
 import React from "react";
 import "./DiscussDetail.css";
-import PHeader from "../Petitions/Pheader"; // Assuming this is the top navigation component
+import PHeader from "../Petitions/Pheader";
 import Footer from "../footer";
 
 function DiscussDetail() {
@@ -19,11 +19,11 @@ function DiscussDetail() {
 
         <div className="DiscussDetail-info">
           <div className="info-top">
-            <h2 className="info-title">학적 프로젝트 일부허용 건의</h2>
+            <h2 className="info-title">수면 보장권 건의</h2>
             <div className="stamp">논의완료 5일전</div>
           </div>
           <div className="info-details">
-            <span className="info-label">분야 | 학생지원</span>
+            <span className="info-label">분야 | 생활지원</span>
             <span className="info-date">기간 | 2024.03.15 - 2024.03.31</span>
             <div className="info-progress-container bottom">
               <span className="info-participants">121명 / 100</span>
@@ -38,15 +38,14 @@ function DiscussDetail() {
               <div className="info-row">
                 <div className="info-label2">청원취지</div>
                 <div className="info-content">
-                  학점포기로 인한 학생들의 윤택한 삶 보장
+                  수면권으로 학생들의 윤택한 삶 보장
                 </div>
               </div>
               <div className="info-row">
                 <div className="info-label2">청원 내용</div>
                 <div className="info-content">
-                  학점포기하게 해주시던 교수님을 자를 권리를 보장해주시던
-                  학생들이 등록금을 내면서 나름 노예가 아닌 삶을 살고 있다
-                  생각할 것 같습니다. 어려우시면 등록금 네고 가시죠.
+                  왜 우리 학교만 1교시가 8시입니까???? 저희도 9시 수업
+                  보장해주십시오! 통학러들은 새벽같이 일어나도 모자랍니다ㅠ!
                 </div>
               </div>
             </div>

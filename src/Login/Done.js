@@ -37,9 +37,9 @@ function Certification() {
           <div className="custom-button">시작하기</div>
         </Link>
 
-        <Link to="/">
+        {/* <Link to="/">
           <h6>뒤로가기</h6>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

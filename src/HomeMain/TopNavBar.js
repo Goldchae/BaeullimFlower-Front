@@ -62,7 +62,7 @@ const TopNavBar = () => {
             }`}
             onClick={() => setActiveTab("create-petition")}
           >
-            의견내기
+            소리내기
           </button>
         </nav>
       </header>

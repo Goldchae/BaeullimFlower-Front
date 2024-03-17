@@ -19,7 +19,7 @@ function CompleteDetail() {
 
         <div className="CompleteDetail-info">
           <div className="info-top">
-            <h2 className="info-title">학점 포기제 일부허용 건의</h2>
+            <h2 className="info-title">해커톤 지원 건의</h2>
           </div>
           <div className="info-details">
             <span className="info-label">분야 | 학생지원</span>
@@ -37,15 +37,14 @@ function CompleteDetail() {
               <div className="info-row">
                 <div className="info-label2">청원취지</div>
                 <div className="info-content">
-                  학점포기로 인한 학생들의 윤택한 삶 보장
+                  해커톤 등 다양한 프로그램 지원
                 </div>
               </div>
               <div className="info-row">
                 <div className="info-label2">청원 내용</div>
                 <div className="info-content">
-                  학점포기하게 해주시던 교수님을 자를 권리를 보장해주시던
-                  학생들이 등록금을 내면서 나름 노예가 아닌 삶을 살고 있다
-                  생각할 것 같습니다. 어려우시면 등록금 네고 가시죠.
+                  학교 측에서는 해커톤 같은 프로그램을 더욱 장려하고
+                  지원해주십시오!
                 </div>
               </div>
             </div>
@@ -59,8 +58,7 @@ function CompleteDetail() {
             <div className="result-row">
               <div className="result-label">결과 내용</div>
               <div className="result-content">
-                교수들은 학생 버킷리스트를 보장해드리며 학점포기도 관찰하고
-                있었습니다. 다만 어려워서인지 등록금 네고 가시죠.
+                1회 이화톤을 지원해드리겠습니다. 감사합니다.
               </div>
             </div>
           </div>

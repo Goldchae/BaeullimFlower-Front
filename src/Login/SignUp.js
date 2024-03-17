@@ -77,9 +77,9 @@ function Signup() {
               다음
             </button>
           </Link>
-          <Link to="/">
+          {/* <Link to="/">
             <h6>뒤로가기</h6>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
