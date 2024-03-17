@@ -8,7 +8,7 @@ const MainLogin = () => {
       <div className="fir-main-login-holder">
         <div className="fir-main-login">
           <div className="megaphone-image">
-            <img alt="로고" src="/image/main/sublogo.png" />
+            <img alt="로고" src="/image/main/subLogo.png" />
           </div>
 
           <div className="text-area">

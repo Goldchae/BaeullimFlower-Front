@@ -1,6 +1,6 @@
 ### [Ewha-thon]
 
-# **🌸 baeullimFlower : 배울림꽃 🌸**
+# **🌸 BaeullimFlower : 배울림꽃 🌸**
 
 **_🍯 MeltingPot Team_**
 
@@ -34,7 +34,7 @@
 
 <img width="80%" src="/public/gif/video.gif"/>
 
-(약간 빠르게 편집하였습니다.)
+(약간 빠르게 편집하였습니다.) ( 로딩에 시간이 걸리니 뜰 때까지 기다려주세요!)
 
 ## FrontEnd 코드 설명
 
