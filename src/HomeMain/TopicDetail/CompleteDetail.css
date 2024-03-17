@@ -1,0 +1,126 @@
+.CompleteDetail-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.CompleteDetail-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This will center the children vertically */
+  justify-content: center; /* This will center the children horizontally */
+}
+
+.complete-bar {
+  display: flex;
+  justify-content: center; /* Centers the status bar horizontally */
+  width: 100%; /* Ensures the status bar takes full width of its container */
+  padding: 20px;
+}
+
+.complete-group {
+  display: block; /* This will allow you to use margin: auto; to horizontally center the image if it's not within a flex container */
+  width: 400px; /* Set a fixed width for your image */
+  height: auto; /* This will maintain the aspect ratio of the image */
+  margin: auto; /* This will center the image if it is in a block context */
+}
+
+/* Existing styles... */
+
+.info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-progress-container {
+  position: relative;
+  margin: 20px 0;
+}
+
+.info-progress-bar {
+  background-color: #eee;
+  border-radius: 4px;
+  width: 100%;
+  height: 20px;
+}
+
+.info-progress {
+  background-color: #006540; /* Green color */
+  height: 100%;
+  border-radius: 4px;
+}
+
+.info-progress-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.info-progress-container.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.info-participants {
+  position: absolute;
+  background-color: #006540;
+  color: white;
+  height: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  width: 370px;
+}
+
+/* Rest of your styles... */
+
+.CompleteDetail-info {
+  width: 400px; /* Match the status bar width */
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center content */
+  padding: 20px;
+  margin: 20px 0; /* Add some vertical spacing */
+}
+
+.petition-result {
+  border: 1px solid #c9dad3; /* Adjust the color as needed */
+  background-color: #f7f7f7;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+}
+
+.result-row {
+  display: flex;
+  margin: 8px 0;
+}
+
+.result-label {
+  flex: 1;
+  font-weight: bold;
+  color: #333;
+}
+
+.result-content {
+  flex: 3;
+  color: #666;
+}
+
+.petition-subtitle {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #006540;
+  padding: 10px 10px;
+  text-align: center;
+}

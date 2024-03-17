@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
-import ExitPopUp from "./ExitPopUp";
 
 const HeaderContainer = styled.header`
   color: white;
@@ -48,7 +47,7 @@ const Button = styled.button`
   }
 `;
 
-function PHeader({ title }) {
+function MyPageNav({ title }) {
   const navigate = useNavigate();
 
   const handleBack = () => {
@@ -63,10 +62,9 @@ function PHeader({ title }) {
       <BottomRow>
         <Button onClick={handleBack}>⬅️</Button>
         <BottomTitle>{title}</BottomTitle>
-        <ExitPopUp />
       </BottomRow>
     </HeaderContainer>
   );
 }
 
-export default PHeader;
+export default MyPageNav;

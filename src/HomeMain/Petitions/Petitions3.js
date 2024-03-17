@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function Petitions3() {
   const navigate = useNavigate();
   const nextClick = () => {
-    //navigate("/Petitions2");
+    navigate("/Petitions4");
   };
 
   return (
@@ -32,10 +32,10 @@ function Petitions3() {
                 <span className="value">Ewha45@ewha.ac.kr</span>
               </div>
             </div>
+            <br />
             <div className="title">의견 내용</div>
             <div className="opinion-box">
               <div className="field">
-                <span className="label">의견 제목</span>
                 <span className="value">
                   학점 평가로 인한 학생들의 유익한 상 보장
                 </span>
@@ -46,7 +46,14 @@ function Petitions3() {
                 겁니다. 어렵으시면 둥글게 넘고 가세요.
               </div>
             </div>
-            <button className="submit-button">신청하기</button>
+            <div className="ai-label">
+              {" "}
+              <img alt="ai" src="/image/main/ai.png" />
+            </div>
+            <br />
+            <button className="submit-button" onClick={nextClick}>
+              신청하기
+            </button>
           </div>
         </div>
       </div>

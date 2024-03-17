@@ -5,17 +5,17 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PublicNews from "../HomeMain/PublicNews";
 
 const HomeMainPage = () => {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/HomeMainPage" element={<TopNavBar />}></Route>
-          <Route path="/student-support" element={<Start />}></Route>
-          {/* 다른 경로와 컴포넌트들을 Route로 설정 */}
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+  // return (
+  // <div className="App">
+  //   <BrowserRouter>
+  //     <Routes>
+  //       <Route path="/HomeMainPage" element={<TopNavBar />}></Route>
+  //       <Route path="/student-support" element={<Start />}></Route>
+  //       {/* 다른 경로와 컴포넌트들을 Route로 설정 */}
+  //     </Routes>
+  //   </BrowserRouter>
+  // </div>
+  // );
 };
 
 export default HomeMainPage;

@@ -82,3 +82,18 @@
   flex-direction: column;
   min-height: 100vh;
 }
+
+.ai-label {
+  //align-self: flex-end; /* Align image to the right */
+  margin-top: 0; /* Keeps the image at the top */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 300px; /* Adjust the maximum width as needed */
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ai-label img {
+  width: 100%;
+  height: auto;
+}

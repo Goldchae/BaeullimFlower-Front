@@ -3,8 +3,14 @@ import React, { useState } from "react";
 import "./TopNavBar.css";
 import PublicNews from "./PublicNews";
 import Petition from "./petition";
+import { useNavigate } from "react-router-dom";
 
 const TopNavBar = () => {
+  const navigate = useNavigate();
+  const nextClick = () => {
+    navigate("/Mypage");
+  };
+
   const [activeTab, setActiveTab] = useState("public-news");
 
   const renderContent = () => {
@@ -21,21 +27,38 @@ const TopNavBar = () => {
   return (
     <div>
       <header className="top-nav-bar">
-        <div className="title-container">
-          <h1 className="title">이화신문고</h1>
+        <div className="top-nav-title-container">
+          <h1 className="top-nav-titletop">이화신문고</h1>
+          <div className="top-nav-icons-container">
+            <img
+              src="/image/icons/Bell.png"
+              alt="Alarm"
+              className="top-nav-icon"
+            />
+            <img
+              src="/image/icons/User.png"
+              alt="My Page"
+              className="top-nav-icon"
+              onClick={nextClick}
+            />
+          </div>
         </div>
-        <nav className="nav-links">
+        <nav className="top-nav-nav-links">
           <button
-            className="nav-button"
+            className={`top-nav-nav-button ${
+              activeTab === "public-news" ? "active" : ""
+            }`}
             onClick={() => setActiveTab("public-news")}
           >
             공개소식
           </button>
           <button
-            className="nav-button"
+            className={`top-nav-nav-button ${
+              activeTab === "create-petition" ? "active" : ""
+            }`}
             onClick={() => setActiveTab("create-petition")}
           >
-            청원하기
+            의견내기
           </button>
         </nav>
       </header>

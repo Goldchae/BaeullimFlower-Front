@@ -1,0 +1,53 @@
+.Mp-main-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 70vh; /* Sets the height of the container to 100% of the viewport height */
+}
+.Mp-main-login-holder {
+  max-width: 500px;
+  min-width: 400px;
+  //background-color: white;
+  padding: 20px;
+}
+.my-voice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1.5em; /* Adjust the size as needed */
+  font-weight: bold;
+  color: #006540;
+  margin: 10px 0; /* Space above and below the username */
+}
+
+.grey-button {
+  background-color: #e0e0e0; /* Grey color */
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px; /* Space below the button */
+  cursor: pointer;
+  color: black;
+}
+
+.grey-button:hover {
+  background-color: #006540; /* Slightly darker grey on hover */
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid #d0d0d0; /* Light grey line */
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.titleHolder {
+  width: 100%;
+  text-align: left;
+}

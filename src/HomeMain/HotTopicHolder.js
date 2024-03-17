@@ -11,6 +11,7 @@ const TopicData = [
     endDate: "2024.03.31",
     daysRemaining: 15,
     agreementPercent: 40,
+    status: "진행중",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const TopicData = [
     endDate: "2024.03.31",
     daysRemaining: 15,
     agreementPercent: 40,
+    status: "진행중",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const TopicData = [
     endDate: "2024.03.31",
     daysRemaining: 15,
     agreementPercent: 40,
+    status: "진행중",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const TopicData = [
     endDate: "2024.03.31",
     daysRemaining: 15,
     agreementPercent: 40,
+    status: "진행중",
   },
 ];
 

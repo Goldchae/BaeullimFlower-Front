@@ -59,8 +59,8 @@ const TopicHolder = () => {
   };
 
   return (
-    <div className="topic-holder">
-      <div className="status-buttons">
+    <div className="th-topic-holder">
+      <div className="th-status-buttons">
         <button
           onClick={() => filterTopics("all")}
           className={activeStatus === "all" ? "active" : ""}
@@ -89,7 +89,7 @@ const TopicHolder = () => {
       {filteredTopics.map((topic) => (
         <Topic key={topic.id} {...topic} />
       ))}
-      <div className="pagination">
+      <div className="th-pagination">
         {/* Pagination component/logic will go here */}
         <span> {"< 1 2 3 >"} </span>
       </div>

@@ -23,7 +23,7 @@ const SignUpForm = () => {
     try {
       // axios를 사용해 POST 요청
       const response = await axios.post(
-        "http://3.37.207.217:8080/auth/signup",
+        "http://43.201.190.119:8081/auth/signup",
         userData
       );
 
@@ -31,9 +31,12 @@ const SignUpForm = () => {
       console.log(response.data);
       // 여기에 로그인 후 처리를 작성하면 됩니다.
     } catch (error) {
-      // 에러 처리
       console.error("회원가입 실패:", error);
-      // 에러 시 추가 처리를 작성하면 됩니다.
+      if (error.response) {
+        // 서버에서 응답을 받은 경우, 응답의 상태 코드와 메시지를 로그로 남깁니다.
+        console.log(error.response.status);
+        console.log(error.response.data);
+      }
     }
   };
 
