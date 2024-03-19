@@ -1,4 +1,4 @@
-### [Ewha-thon]
+### [Ewha-thon] 이화여대 1회 해커톤
 
 # **🌸 BaeullimFlower : 배울림꽃 🌸**
 
